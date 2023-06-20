@@ -5,7 +5,6 @@ from decimal import Decimal
 
 def set_list():
     numbers = list()
-    numbers.append(0)
     x = Decimal(input("Введите число:"))
     while x != 0:
         numbers.append(x)
